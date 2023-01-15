@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>gess the number </title>
+</head>
+
+<body>
+    <div class="again">
+        <button class="again-button" onclick="reset()">Again</button>
+    </div>
+    <!--headings -->
+    <div id="heading"><h1 class="head"> Gess the number</h1></div>
+    <!-- between-->
+    <div id="between"><h1 class="between-0">Between 0 to 20</h1></div>
+    <!--qustion-->
+   
+        <div class="line"></div>
+        <div class="question"><p1 class="qu">?</p1></div>
+
+    <!-- main body-->
+    <div class="main-body">
+        <!-- container   -->
+        <div class="constainer">
+            <input type="number" name="" value="number" id="number">
+            <button type="submit" value="Check!" onclick="check()" id="submit">Check!</button>
+        </div>
+    </div>
+    <!--score-->
+
+    <div class="calculator">
+        <h1 class="too-low">too low</h1>
+        <div id="display-too-low" ></div>
+
+        <h1 class="Score">Score:</h1>
+        <h1 id="score-value">0</h1>
+        <h1 class="Highscore">Highscore :</h1>
+        <h1 id="highscore-value">0</h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
